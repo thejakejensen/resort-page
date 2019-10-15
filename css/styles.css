@@ -32,6 +32,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
+<<<<<<< HEAD
  h1 {
    text-align: center;
    font-family: inherit;
@@ -41,6 +42,37 @@ li a:hover {
 h2 {
   background-color: black;
   background-blend-mode:color-dodge;
+=======
+h2 {background-color: black;
+  color: white;
+  text-align: left;
+  }
+img {
+  height: auto;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  background-image: url("../photos/tropical_resort_island-wallpaper-1920x1080.jpg");
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+>>>>>>> zen-resort
   color: white;
 }
 
@@ -51,4 +83,13 @@ img {
 
 .in{
   background-color: grey;
+}
+
+.in {
+  background: rgba(255, 255, 255, 0.6);
+  font-weight: bolder;
+}
+}
+.center {
+  align-items: center;
 }
